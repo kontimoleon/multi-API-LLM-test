@@ -1,0 +1,19 @@
+providers:
+  openai:
+    include: false
+    models:
+      - "gpt-4o"
+      - "gpt-4o-mini"
+  
+  gpustack:
+    include: false
+    models:
+      - "llama-3.3b"
+
+  azure:
+    include: true
+    models:
+      - "gpt-4o"
+      - "gpt-4o-mini"
+
+prompt: "Hi, my name is Stefan. Tell me a fun fact about the world!"
