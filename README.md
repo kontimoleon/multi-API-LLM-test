@@ -1,6 +1,13 @@
 # Multi-API LLM Tests
 
-This guide explains how to set up the necessary API keys as environment variables and configure the provider settings for this project.
+This small repo contains a script that queries multiple language model APIs with the same prompt and documents the results in a text file.
+
+## Requirements
+- Python 3.10 or higher
+- `pip` package manager to download libraries: `pyyaml`, `openai` (see code below)
+```powershell
+pip install pyyaml openai
+```
 
 ## Setting Up API Keys
 
